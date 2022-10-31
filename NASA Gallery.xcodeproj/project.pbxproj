@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0046CB88290D498B0045204F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046CB87290D498B0045204F /* AppDelegate.swift */; };
-		0046CB8A290D498B0045204F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046CB89290D498B0045204F /* SceneDelegate.swift */; };
-		0046CB8C290D498B0045204F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046CB8B290D498B0045204F /* ViewController.swift */; };
-		0046CB8F290D498B0045204F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0046CB8D290D498B0045204F /* Main.storyboard */; };
-		0046CB92290D498B0045204F /* NASA_Gallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0046CB90290D498B0045204F /* NASA_Gallery.xcdatamodeld */; };
-		0046CB94290D498C0045204F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0046CB93290D498C0045204F /* Assets.xcassets */; };
-		0046CB97290D498C0045204F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0046CB95290D498C0045204F /* LaunchScreen.storyboard */; };
 		0046CBA2290D498C0045204F /* NASA_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046CBA1290D498C0045204F /* NASA_GalleryTests.swift */; };
 		0046CBAC290D498C0045204F /* NASA_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046CBAB290D498C0045204F /* NASA_GalleryUITests.swift */; };
 		0046CBAE290D498C0045204F /* NASA_GalleryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046CBAD290D498C0045204F /* NASA_GalleryUITestsLaunchTests.swift */; };
+		00CF30FD290F8E0600D86CE3 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30E3290F8E0600D86CE3 /* ImageCollectionCell.swift */; };
+		00CF30FE290F8E0600D86CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30E4290F8E0600D86CE3 /* Assets.xcassets */; };
+		00CF30FF290F8E0600D86CE3 /* NASAImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30E6290F8E0600D86CE3 /* NASAImages.swift */; };
+		00CF3100290F8E0600D86CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30E7290F8E0600D86CE3 /* LaunchScreen.storyboard */; };
+		00CF3101290F8E0600D86CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30E9290F8E0600D86CE3 /* Main.storyboard */; };
+		00CF3102290F8E0600D86CE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30EC290F8E0600D86CE3 /* AppDelegate.swift */; };
+		00CF3103290F8E0600D86CE3 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30EE290F8E0600D86CE3 /* data.json */; };
+		00CF3104290F8E0600D86CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30F0290F8E0600D86CE3 /* Assets.xcassets */; };
+		00CF3105290F8E0600D86CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30F1290F8E0600D86CE3 /* LaunchScreen.storyboard */; };
+		00CF3106290F8E0600D86CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30F3290F8E0600D86CE3 /* Main.storyboard */; };
+		00CF3107290F8E0600D86CE3 /* NASA_Gallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30F5290F8E0600D86CE3 /* NASA_Gallery.xcdatamodeld */; };
+		00CF3108290F8E0600D86CE3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30F7290F8E0600D86CE3 /* Info.plist */; };
+		00CF3109290F8E0600D86CE3 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30F9290F8E0600D86CE3 /* DetailTableViewCell.swift */; };
+		00CF310A290F8E0600D86CE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30FB290F8E0600D86CE3 /* ViewController.swift */; };
+		00CF310B290F8E0600D86CE3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30FC290F8E0600D86CE3 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +46,26 @@
 
 /* Begin PBXFileReference section */
 		0046CB84290D498B0045204F /* NASA Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NASA Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0046CB87290D498B0045204F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0046CB89290D498B0045204F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0046CB8B290D498B0045204F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0046CB8E290D498B0045204F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0046CB91290D498B0045204F /* NASA_Gallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NASA_Gallery.xcdatamodel; sourceTree = "<group>"; };
-		0046CB93290D498C0045204F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0046CB96290D498C0045204F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0046CB98290D498C0045204F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0046CB9D290D498C0045204F /* NASA GalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NASA GalleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0046CBA1290D498C0045204F /* NASA_GalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_GalleryTests.swift; sourceTree = "<group>"; };
 		0046CBA7290D498C0045204F /* NASA GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NASA GalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0046CBAB290D498C0045204F /* NASA_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_GalleryUITests.swift; sourceTree = "<group>"; };
 		0046CBAD290D498C0045204F /* NASA_GalleryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_GalleryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00CF30E3290F8E0600D86CE3 /* ImageCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
+		00CF30E4290F8E0600D86CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00CF30E6290F8E0600D86CE3 /* NASAImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NASAImages.swift; sourceTree = "<group>"; };
+		00CF30E8290F8E0600D86CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00CF30EA290F8E0600D86CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00CF30EC290F8E0600D86CE3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00CF30EE290F8E0600D86CE3 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		00CF30F0290F8E0600D86CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00CF30F2290F8E0600D86CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00CF30F4290F8E0600D86CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00CF30F6290F8E0600D86CE3 /* NASA_Gallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NASA_Gallery.xcdatamodel; sourceTree = "<group>"; };
+		00CF30F7290F8E0600D86CE3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CF30F9290F8E0600D86CE3 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		00CF30FB290F8E0600D86CE3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00CF30FC290F8E0600D86CE3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +96,7 @@
 		0046CB7B290D498B0045204F = {
 			isa = PBXGroup;
 			children = (
-				0046CB86290D498B0045204F /* NASA Gallery */,
+				00CF30E1290F8E0600D86CE3 /* NASA Gallery */,
 				0046CBA0290D498C0045204F /* NASA GalleryTests */,
 				0046CBAA290D498C0045204F /* NASA GalleryUITests */,
 				0046CB85290D498B0045204F /* Products */,
@@ -96,21 +111,6 @@
 				0046CBA7290D498C0045204F /* NASA GalleryUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0046CB86290D498B0045204F /* NASA Gallery */ = {
-			isa = PBXGroup;
-			children = (
-				0046CB87290D498B0045204F /* AppDelegate.swift */,
-				0046CB89290D498B0045204F /* SceneDelegate.swift */,
-				0046CB8B290D498B0045204F /* ViewController.swift */,
-				0046CB8D290D498B0045204F /* Main.storyboard */,
-				0046CB93290D498C0045204F /* Assets.xcassets */,
-				0046CB95290D498C0045204F /* LaunchScreen.storyboard */,
-				0046CB98290D498C0045204F /* Info.plist */,
-				0046CB90290D498B0045204F /* NASA_Gallery.xcdatamodeld */,
-			);
-			path = "NASA Gallery";
 			sourceTree = "<group>";
 		};
 		0046CBA0290D498C0045204F /* NASA GalleryTests */ = {
@@ -128,6 +128,84 @@
 				0046CBAD290D498C0045204F /* NASA_GalleryUITestsLaunchTests.swift */,
 			);
 			path = "NASA GalleryUITests";
+			sourceTree = "<group>";
+		};
+		00CF30E1290F8E0600D86CE3 /* NASA Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				00CF30E2290F8E0600D86CE3 /* CollectionCell */,
+				00CF30E4290F8E0600D86CE3 /* Assets.xcassets */,
+				00CF30E5290F8E0600D86CE3 /* Models */,
+				00CF30E7290F8E0600D86CE3 /* LaunchScreen.storyboard */,
+				00CF30E9290F8E0600D86CE3 /* Main.storyboard */,
+				00CF30EB290F8E0600D86CE3 /* Common */,
+				00CF30ED290F8E0600D86CE3 /* JSON */,
+				00CF30EF290F8E0600D86CE3 /* Supporting Files */,
+				00CF30F8290F8E0600D86CE3 /* TableViewCell */,
+				00CF30FA290F8E0600D86CE3 /* Controllers */,
+			);
+			path = "NASA Gallery";
+			sourceTree = "<group>";
+		};
+		00CF30E2290F8E0600D86CE3 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				00CF30E3290F8E0600D86CE3 /* ImageCollectionCell.swift */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		00CF30E5290F8E0600D86CE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00CF30E6290F8E0600D86CE3 /* NASAImages.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00CF30EB290F8E0600D86CE3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				00CF30EC290F8E0600D86CE3 /* AppDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		00CF30ED290F8E0600D86CE3 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				00CF30EE290F8E0600D86CE3 /* data.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		00CF30EF290F8E0600D86CE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00CF30F0290F8E0600D86CE3 /* Assets.xcassets */,
+				00CF30F1290F8E0600D86CE3 /* LaunchScreen.storyboard */,
+				00CF30F3290F8E0600D86CE3 /* Main.storyboard */,
+				00CF30F5290F8E0600D86CE3 /* NASA_Gallery.xcdatamodeld */,
+				00CF30F7290F8E0600D86CE3 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00CF30F8290F8E0600D86CE3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				00CF30F9290F8E0600D86CE3 /* DetailTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		00CF30FA290F8E0600D86CE3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00CF30FB290F8E0600D86CE3 /* ViewController.swift */,
+				00CF30FC290F8E0600D86CE3 /* DetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +312,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0046CB97290D498C0045204F /* LaunchScreen.storyboard in Resources */,
-				0046CB94290D498C0045204F /* Assets.xcassets in Resources */,
-				0046CB8F290D498B0045204F /* Main.storyboard in Resources */,
+				00CF3108290F8E0600D86CE3 /* Info.plist in Resources */,
+				00CF3106290F8E0600D86CE3 /* Main.storyboard in Resources */,
+				00CF3101290F8E0600D86CE3 /* Main.storyboard in Resources */,
+				00CF30FE290F8E0600D86CE3 /* Assets.xcassets in Resources */,
+				00CF3100290F8E0600D86CE3 /* LaunchScreen.storyboard in Resources */,
+				00CF3105290F8E0600D86CE3 /* LaunchScreen.storyboard in Resources */,
+				00CF3103290F8E0600D86CE3 /* data.json in Resources */,
+				00CF3104290F8E0600D86CE3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0046CB8C290D498B0045204F /* ViewController.swift in Sources */,
-				0046CB88290D498B0045204F /* AppDelegate.swift in Sources */,
-				0046CB8A290D498B0045204F /* SceneDelegate.swift in Sources */,
-				0046CB92290D498B0045204F /* NASA_Gallery.xcdatamodeld in Sources */,
+				00CF310A290F8E0600D86CE3 /* ViewController.swift in Sources */,
+				00CF3102290F8E0600D86CE3 /* AppDelegate.swift in Sources */,
+				00CF30FF290F8E0600D86CE3 /* NASAImages.swift in Sources */,
+				00CF30FD290F8E0600D86CE3 /* ImageCollectionCell.swift in Sources */,
+				00CF3109290F8E0600D86CE3 /* DetailTableViewCell.swift in Sources */,
+				00CF3107290F8E0600D86CE3 /* NASA_Gallery.xcdatamodeld in Sources */,
+				00CF310B290F8E0600D86CE3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,20 +387,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0046CB8D290D498B0045204F /* Main.storyboard */ = {
+		00CF30E7290F8E0600D86CE3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0046CB8E290D498B0045204F /* Base */,
+				00CF30E8290F8E0600D86CE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00CF30E9290F8E0600D86CE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00CF30EA290F8E0600D86CE3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0046CB95290D498C0045204F /* LaunchScreen.storyboard */ = {
+		00CF30F1290F8E0600D86CE3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0046CB96290D498C0045204F /* Base */,
+				00CF30F2290F8E0600D86CE3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00CF30F3290F8E0600D86CE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00CF30F4290F8E0600D86CE3 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -608,12 +710,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		0046CB90290D498B0045204F /* NASA_Gallery.xcdatamodeld */ = {
+		00CF30F5290F8E0600D86CE3 /* NASA_Gallery.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0046CB91290D498B0045204F /* NASA_Gallery.xcdatamodel */,
+				00CF30F6290F8E0600D86CE3 /* NASA_Gallery.xcdatamodel */,
 			);
-			currentVersion = 0046CB91290D498B0045204F /* NASA_Gallery.xcdatamodel */;
+			currentVersion = 00CF30F6290F8E0600D86CE3 /* NASA_Gallery.xcdatamodel */;
 			path = NASA_Gallery.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
