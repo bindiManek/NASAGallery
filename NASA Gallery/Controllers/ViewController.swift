@@ -19,7 +19,6 @@ class ViewController: UIViewController, UICollectionViewDelegate,UICollectionVie
         if let nasaImagesTemp = loadJson(fileName: "data") {
             nasaImages = nasaImagesTemp
         }
-        print(nasaImages.count)
 //        self.collectionViewNASA!.register(ImageCollectionCell.self, forCellWithReuseIdentifier: "cell")
         self.collectionViewNASA.reloadData()
 //        self.callViewModelForUIUpdate()

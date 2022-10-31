@@ -10,21 +10,18 @@
 		0046CBA2290D498C0045204F /* NASA_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046CBA1290D498C0045204F /* NASA_GalleryTests.swift */; };
 		0046CBAC290D498C0045204F /* NASA_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046CBAB290D498C0045204F /* NASA_GalleryUITests.swift */; };
 		0046CBAE290D498C0045204F /* NASA_GalleryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046CBAD290D498C0045204F /* NASA_GalleryUITestsLaunchTests.swift */; };
-		00CF30FD290F8E0600D86CE3 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30E3290F8E0600D86CE3 /* ImageCollectionCell.swift */; };
-		00CF30FE290F8E0600D86CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30E4290F8E0600D86CE3 /* Assets.xcassets */; };
-		00CF30FF290F8E0600D86CE3 /* NASAImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30E6290F8E0600D86CE3 /* NASAImages.swift */; };
-		00CF3100290F8E0600D86CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30E7290F8E0600D86CE3 /* LaunchScreen.storyboard */; };
-		00CF3101290F8E0600D86CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30E9290F8E0600D86CE3 /* Main.storyboard */; };
-		00CF3102290F8E0600D86CE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30EC290F8E0600D86CE3 /* AppDelegate.swift */; };
-		00CF3103290F8E0600D86CE3 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30EE290F8E0600D86CE3 /* data.json */; };
-		00CF3104290F8E0600D86CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30F0290F8E0600D86CE3 /* Assets.xcassets */; };
-		00CF3105290F8E0600D86CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30F1290F8E0600D86CE3 /* LaunchScreen.storyboard */; };
-		00CF3106290F8E0600D86CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30F3290F8E0600D86CE3 /* Main.storyboard */; };
-		00CF3107290F8E0600D86CE3 /* NASA_Gallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30F5290F8E0600D86CE3 /* NASA_Gallery.xcdatamodeld */; };
-		00CF3108290F8E0600D86CE3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00CF30F7290F8E0600D86CE3 /* Info.plist */; };
-		00CF3109290F8E0600D86CE3 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30F9290F8E0600D86CE3 /* DetailTableViewCell.swift */; };
-		00CF310A290F8E0600D86CE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30FB290F8E0600D86CE3 /* ViewController.swift */; };
-		00CF310B290F8E0600D86CE3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF30FC290F8E0600D86CE3 /* DetailViewController.swift */; };
+		0069513E290FB7DF00BD2C0E /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00695123290FB7DF00BD2C0E /* ImageCollectionCell.swift */; };
+		00695140290FB7DF00BD2C0E /* NASAImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00695126290FB7DF00BD2C0E /* NASAImages.swift */; };
+		00695143290FB7DF00BD2C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069512C290FB7DF00BD2C0E /* AppDelegate.swift */; };
+		00695145290FB7DF00BD2C0E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0069512F290FB7DF00BD2C0E /* data.json */; };
+		00695146290FB7DF00BD2C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00695131290FB7DF00BD2C0E /* Assets.xcassets */; };
+		00695147290FB7DF00BD2C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00695132290FB7DF00BD2C0E /* LaunchScreen.storyboard */; };
+		00695148290FB7DF00BD2C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00695134290FB7DF00BD2C0E /* Main.storyboard */; };
+		00695149290FB7DF00BD2C0E /* NASA_Gallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00695136290FB7DF00BD2C0E /* NASA_Gallery.xcdatamodeld */; };
+		0069514B290FB7DF00BD2C0E /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069513A290FB7DF00BD2C0E /* DetailTableViewCell.swift */; };
+		0069514C290FB7DF00BD2C0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069513C290FB7DF00BD2C0E /* ViewController.swift */; };
+		0069514D290FB7DF00BD2C0E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069513D290FB7DF00BD2C0E /* DetailViewController.swift */; };
+		00695150290FB84000BD2C0E /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0069514F290FB84000BD2C0E /* AlamofireImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,21 +48,21 @@
 		0046CBA7290D498C0045204F /* NASA GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NASA GalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0046CBAB290D498C0045204F /* NASA_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_GalleryUITests.swift; sourceTree = "<group>"; };
 		0046CBAD290D498C0045204F /* NASA_GalleryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_GalleryUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		00CF30E3290F8E0600D86CE3 /* ImageCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
-		00CF30E4290F8E0600D86CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00CF30E6290F8E0600D86CE3 /* NASAImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NASAImages.swift; sourceTree = "<group>"; };
-		00CF30E8290F8E0600D86CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		00CF30EA290F8E0600D86CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00CF30EC290F8E0600D86CE3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00CF30EE290F8E0600D86CE3 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		00CF30F0290F8E0600D86CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00CF30F2290F8E0600D86CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		00CF30F4290F8E0600D86CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00CF30F6290F8E0600D86CE3 /* NASA_Gallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NASA_Gallery.xcdatamodel; sourceTree = "<group>"; };
-		00CF30F7290F8E0600D86CE3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00CF30F9290F8E0600D86CE3 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
-		00CF30FB290F8E0600D86CE3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00CF30FC290F8E0600D86CE3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		00695123290FB7DF00BD2C0E /* ImageCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
+		00695124290FB7DF00BD2C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00695126290FB7DF00BD2C0E /* NASAImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NASAImages.swift; sourceTree = "<group>"; };
+		00695128290FB7DF00BD2C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0069512A290FB7DF00BD2C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0069512C290FB7DF00BD2C0E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0069512F290FB7DF00BD2C0E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		00695131290FB7DF00BD2C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00695133290FB7DF00BD2C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00695135290FB7DF00BD2C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00695137290FB7DF00BD2C0E /* NASA_Gallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NASA_Gallery.xcdatamodel; sourceTree = "<group>"; };
+		00695138290FB7DF00BD2C0E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0069513A290FB7DF00BD2C0E /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		0069513C290FB7DF00BD2C0E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0069513D290FB7DF00BD2C0E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00695150290FB84000BD2C0E /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +94,7 @@
 		0046CB7B290D498B0045204F = {
 			isa = PBXGroup;
 			children = (
-				00CF30E1290F8E0600D86CE3 /* NASA Gallery */,
+				00695121290FB7DF00BD2C0E /* NASA Gallery */,
 				0046CBA0290D498C0045204F /* NASA GalleryTests */,
 				0046CBAA290D498C0045204F /* NASA GalleryUITests */,
 				0046CB85290D498B0045204F /* Products */,
@@ -130,80 +128,80 @@
 			path = "NASA GalleryUITests";
 			sourceTree = "<group>";
 		};
-		00CF30E1290F8E0600D86CE3 /* NASA Gallery */ = {
+		00695121290FB7DF00BD2C0E /* NASA Gallery */ = {
 			isa = PBXGroup;
 			children = (
-				00CF30F8290F8E0600D86CE3 /* TableViewCell */,
-				00CF30E2290F8E0600D86CE3 /* CollectionCell */,
-				00CF30E4290F8E0600D86CE3 /* Assets.xcassets */,
-				00CF30E5290F8E0600D86CE3 /* Models */,
-				00CF30E7290F8E0600D86CE3 /* LaunchScreen.storyboard */,
-				00CF30E9290F8E0600D86CE3 /* Main.storyboard */,
-				00CF30EB290F8E0600D86CE3 /* Common */,
-				00CF30ED290F8E0600D86CE3 /* JSON */,
-				00CF30EF290F8E0600D86CE3 /* Supporting Files */,
-				00CF30FA290F8E0600D86CE3 /* Controllers */,
+				00695122290FB7DF00BD2C0E /* CollectionCell */,
+				00695124290FB7DF00BD2C0E /* Assets.xcassets */,
+				00695125290FB7DF00BD2C0E /* Models */,
+				00695127290FB7DF00BD2C0E /* LaunchScreen.storyboard */,
+				00695129290FB7DF00BD2C0E /* Main.storyboard */,
+				0069512B290FB7DF00BD2C0E /* Common */,
+				0069512E290FB7DF00BD2C0E /* JSON */,
+				00695130290FB7DF00BD2C0E /* Supporting Files */,
+				00695139290FB7DF00BD2C0E /* TableViewCell */,
+				0069513B290FB7DF00BD2C0E /* Controllers */,
 			);
 			path = "NASA Gallery";
 			sourceTree = "<group>";
 		};
-		00CF30E2290F8E0600D86CE3 /* CollectionCell */ = {
+		00695122290FB7DF00BD2C0E /* CollectionCell */ = {
 			isa = PBXGroup;
 			children = (
-				00CF30E3290F8E0600D86CE3 /* ImageCollectionCell.swift */,
+				00695123290FB7DF00BD2C0E /* ImageCollectionCell.swift */,
 			);
 			path = CollectionCell;
 			sourceTree = "<group>";
 		};
-		00CF30E5290F8E0600D86CE3 /* Models */ = {
+		00695125290FB7DF00BD2C0E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				00CF30E6290F8E0600D86CE3 /* NASAImages.swift */,
+				00695126290FB7DF00BD2C0E /* NASAImages.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		00CF30EB290F8E0600D86CE3 /* Common */ = {
+		0069512B290FB7DF00BD2C0E /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				00CF30EC290F8E0600D86CE3 /* AppDelegate.swift */,
+				0069512C290FB7DF00BD2C0E /* AppDelegate.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		00CF30ED290F8E0600D86CE3 /* JSON */ = {
+		0069512E290FB7DF00BD2C0E /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				00CF30EE290F8E0600D86CE3 /* data.json */,
+				0069512F290FB7DF00BD2C0E /* data.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
 		};
-		00CF30EF290F8E0600D86CE3 /* Supporting Files */ = {
+		00695130290FB7DF00BD2C0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00CF30F0290F8E0600D86CE3 /* Assets.xcassets */,
-				00CF30F1290F8E0600D86CE3 /* LaunchScreen.storyboard */,
-				00CF30F3290F8E0600D86CE3 /* Main.storyboard */,
-				00CF30F5290F8E0600D86CE3 /* NASA_Gallery.xcdatamodeld */,
-				00CF30F7290F8E0600D86CE3 /* Info.plist */,
+				00695131290FB7DF00BD2C0E /* Assets.xcassets */,
+				00695132290FB7DF00BD2C0E /* LaunchScreen.storyboard */,
+				00695134290FB7DF00BD2C0E /* Main.storyboard */,
+				00695136290FB7DF00BD2C0E /* NASA_Gallery.xcdatamodeld */,
+				00695138290FB7DF00BD2C0E /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00CF30F8290F8E0600D86CE3 /* TableViewCell */ = {
+		00695139290FB7DF00BD2C0E /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				00CF30F9290F8E0600D86CE3 /* DetailTableViewCell.swift */,
+				0069513A290FB7DF00BD2C0E /* DetailTableViewCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
 		};
-		00CF30FA290F8E0600D86CE3 /* Controllers */ = {
+		0069513B290FB7DF00BD2C0E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				00CF30FB290F8E0600D86CE3 /* ViewController.swift */,
-				00CF30FC290F8E0600D86CE3 /* DetailViewController.swift */,
+				0069513C290FB7DF00BD2C0E /* ViewController.swift */,
+				0069513D290FB7DF00BD2C0E /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -224,6 +222,9 @@
 			dependencies = (
 			);
 			name = "NASA Gallery";
+			packageProductDependencies = (
+				0069514F290FB84000BD2C0E /* AlamofireImage */,
+			);
 			productName = "NASA Gallery";
 			productReference = 0046CB84290D498B0045204F /* NASA Gallery.app */;
 			productType = "com.apple.product-type.application";
@@ -296,6 +297,9 @@
 				Base,
 			);
 			mainGroup = 0046CB7B290D498B0045204F;
+			packageReferences = (
+				0069514E290FB84000BD2C0E /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 0046CB85290D498B0045204F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -312,14 +316,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CF3108290F8E0600D86CE3 /* Info.plist in Resources */,
-				00CF3106290F8E0600D86CE3 /* Main.storyboard in Resources */,
-				00CF3101290F8E0600D86CE3 /* Main.storyboard in Resources */,
-				00CF30FE290F8E0600D86CE3 /* Assets.xcassets in Resources */,
-				00CF3100290F8E0600D86CE3 /* LaunchScreen.storyboard in Resources */,
-				00CF3105290F8E0600D86CE3 /* LaunchScreen.storyboard in Resources */,
-				00CF3103290F8E0600D86CE3 /* data.json in Resources */,
-				00CF3104290F8E0600D86CE3 /* Assets.xcassets in Resources */,
+				00695148290FB7DF00BD2C0E /* Main.storyboard in Resources */,
+				00695147290FB7DF00BD2C0E /* LaunchScreen.storyboard in Resources */,
+				00695145290FB7DF00BD2C0E /* data.json in Resources */,
+				00695146290FB7DF00BD2C0E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,13 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CF310A290F8E0600D86CE3 /* ViewController.swift in Sources */,
-				00CF3102290F8E0600D86CE3 /* AppDelegate.swift in Sources */,
-				00CF30FF290F8E0600D86CE3 /* NASAImages.swift in Sources */,
-				00CF30FD290F8E0600D86CE3 /* ImageCollectionCell.swift in Sources */,
-				00CF3109290F8E0600D86CE3 /* DetailTableViewCell.swift in Sources */,
-				00CF3107290F8E0600D86CE3 /* NASA_Gallery.xcdatamodeld in Sources */,
-				00CF310B290F8E0600D86CE3 /* DetailViewController.swift in Sources */,
+				0069514B290FB7DF00BD2C0E /* DetailTableViewCell.swift in Sources */,
+				00695143290FB7DF00BD2C0E /* AppDelegate.swift in Sources */,
+				00695149290FB7DF00BD2C0E /* NASA_Gallery.xcdatamodeld in Sources */,
+				00695140290FB7DF00BD2C0E /* NASAImages.swift in Sources */,
+				0069514C290FB7DF00BD2C0E /* ViewController.swift in Sources */,
+				0069513E290FB7DF00BD2C0E /* ImageCollectionCell.swift in Sources */,
+				0069514D290FB7DF00BD2C0E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,34 +387,34 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		00CF30E7290F8E0600D86CE3 /* LaunchScreen.storyboard */ = {
+		00695127290FB7DF00BD2C0E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00CF30E8290F8E0600D86CE3 /* Base */,
+				00695128290FB7DF00BD2C0E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		00CF30E9290F8E0600D86CE3 /* Main.storyboard */ = {
+		00695129290FB7DF00BD2C0E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00CF30EA290F8E0600D86CE3 /* Base */,
+				0069512A290FB7DF00BD2C0E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		00CF30F1290F8E0600D86CE3 /* LaunchScreen.storyboard */ = {
+		00695132290FB7DF00BD2C0E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00CF30F2290F8E0600D86CE3 /* Base */,
+				00695133290FB7DF00BD2C0E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		00CF30F3290F8E0600D86CE3 /* Main.storyboard */ = {
+		00695134290FB7DF00BD2C0E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00CF30F4290F8E0600D86CE3 /* Base */,
+				00695135290FB7DF00BD2C0E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -709,13 +709,32 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		0069514E290FB84000BD2C0E /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0069514F290FB84000BD2C0E /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0069514E290FB84000BD2C0E /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		00CF30F5290F8E0600D86CE3 /* NASA_Gallery.xcdatamodeld */ = {
+		00695136290FB7DF00BD2C0E /* NASA_Gallery.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				00CF30F6290F8E0600D86CE3 /* NASA_Gallery.xcdatamodel */,
+				00695137290FB7DF00BD2C0E /* NASA_Gallery.xcdatamodel */,
 			);
-			currentVersion = 00CF30F6290F8E0600D86CE3 /* NASA_Gallery.xcdatamodel */;
+			currentVersion = 00695137290FB7DF00BD2C0E /* NASA_Gallery.xcdatamodel */;
 			path = NASA_Gallery.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

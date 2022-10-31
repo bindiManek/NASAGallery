@@ -51,7 +51,7 @@
                                         </constraints>
                                         <size key="customSize" width="150" height="150"/>
                                         <connections>
-                                            <outlet property="ivNASAImages" destination="Ncw-YG-uQG" id="bbW-fb-Vkb"/>
+                                            <outlet property="ivNASAImages" destination="Ncw-YG-uQG" id="aKN-FF-Wbx"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>

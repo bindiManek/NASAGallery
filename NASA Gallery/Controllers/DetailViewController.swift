@@ -9,6 +9,9 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    var nasaImageIndex: Int = 0
+    var nasaImages = [NASAImages]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

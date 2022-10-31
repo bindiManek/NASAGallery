@@ -8,5 +8,6 @@
 import UIKit
 
 class ImageCollectionCell: UICollectionViewCell {
+    @IBOutlet weak var ivNASAImages: UIImageView!
     
 }
