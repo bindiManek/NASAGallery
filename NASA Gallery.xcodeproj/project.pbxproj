@@ -133,6 +133,7 @@
 		00CF30E1290F8E0600D86CE3 /* NASA Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				00CF30F8290F8E0600D86CE3 /* TableViewCell */,
 				00CF30E2290F8E0600D86CE3 /* CollectionCell */,
 				00CF30E4290F8E0600D86CE3 /* Assets.xcassets */,
 				00CF30E5290F8E0600D86CE3 /* Models */,
@@ -141,7 +142,6 @@
 				00CF30EB290F8E0600D86CE3 /* Common */,
 				00CF30ED290F8E0600D86CE3 /* JSON */,
 				00CF30EF290F8E0600D86CE3 /* Supporting Files */,
-				00CF30F8290F8E0600D86CE3 /* TableViewCell */,
 				00CF30FA290F8E0600D86CE3 /* Controllers */,
 			);
 			path = "NASA Gallery";
