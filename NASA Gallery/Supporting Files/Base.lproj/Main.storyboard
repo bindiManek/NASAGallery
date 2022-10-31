@@ -166,11 +166,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="ivNASAIMage" destination="1yi-lW-gAc" id="B3k-2q-yqB"/>
                                             <outlet property="ivNASAImage" destination="1yi-lW-gAc" id="Bnq-Pe-JWQ"/>
-                                            <outlet property="lblDated" destination="qRz-Op-C05" id="Cv8-A3-Xxt"/>
+                                            <outlet property="lblCopyright" destination="2zr-lC-ZYQ" id="ekQ-Ut-vaU"/>
+                                            <outlet property="lblDated" destination="qRz-Op-C05" id="KLP-Qc-HSC"/>
                                             <outlet property="lblDetail" destination="2zr-lC-ZYQ" id="orv-LQ-hW2"/>
-                                            <outlet property="lblTitle" destination="nUx-VY-XCf" id="SgM-kE-Dts"/>
-                                            <outlet property="txtDescription" destination="bJ8-b5-ET7" id="xdV-Hc-V54"/>
+                                            <outlet property="lblTitle" destination="nUx-VY-XCf" id="gma-Qe-0ZJ"/>
+                                            <outlet property="txtDescription" destination="bJ8-b5-ET7" id="VK3-Ae-pA2"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

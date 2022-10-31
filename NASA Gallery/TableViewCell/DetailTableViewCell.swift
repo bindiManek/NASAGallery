@@ -9,6 +9,12 @@ import UIKit
 
 class DetailTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var txtDescription: UITextView!
+    @IBOutlet weak var lblDated: UILabel!
+    @IBOutlet weak var lblCopyright: UILabel!
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var ivNASAIMage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

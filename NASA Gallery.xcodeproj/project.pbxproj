@@ -545,7 +545,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2WM292N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NASA Gallery/Info.plist";
+				INFOPLIST_FILE = "NASA Gallery/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -573,7 +573,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2WP2WM292N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NASA Gallery/Info.plist";
+				INFOPLIST_FILE = "NASA Gallery/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
